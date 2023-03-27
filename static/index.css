@@ -1,0 +1,353 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 40px;
+    margin: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    background-color: #e2e5f2;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#nav-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-img img{
+    width: 100px;
+    padding: 0;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    background-image: none;
+}
+#nav-img img:hover{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+    color: #060606;
+}
+#nav-des li{
+    list-style: none;
+    padding-right: 20px;
+    padding-left: 10px;
+    position: relative;
+}
+#nav-des li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    transition: 0.2s ease;
+}
+#nav-des li a:hover,
+#nav-des li a:active{
+    color: #088179;
+}
+#nav-des li a:hover::after,
+#nav-des li a:active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088179;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#love-pro{
+    background-image: url("images/teddy.jpg");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: top 25% right 0 ;
+    padding-left: 50%;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#love-content{
+    padding: 10px;
+    margin: 10px;
+    
+}
+#love-content p{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #000;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+#love-content input{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-image: url(images/background5.jpg);
+    background-position: center;
+    border: 2px solid gray;
+    
+}
+#love-content .name{
+    width: 230px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid gray;
+}
+#love-content .radio{
+    padding: 8px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: serif;
+    letter-spacing: 2px;
+    color: slategray;
+    accent-color: gray;
+}
+#love-content button{
+    margin-bottom: 30px;
+   
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+    border: 2px solid grey;
+    cursor: pointer;
+}
+#love-content #btn button{
+    width: 230px;
+    color: black;
+    margin-top: 60px;
+    background-image: url(images/background3.jpg);
+    margin-bottom: 20px;
+    padding: 14px;
+
+}
+#love-content #btn button:hover{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+    background-color: #189090;
+    background-image: none;
+    color: #000;
+}
+#love-pro #result{
+    padding: 10px;
+    margin-top: 10px;
+    width: 240px;
+    height: 45px;
+    background-color:aquamarine;
+    border: 2px solid grey;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+   margin-left: 5px;
+}
+#love-pro #result p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: serif;
+    color:navy;
+    margin-bottom: 20px;
+}
+#love-pro #result .res{
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 16px;
+    position: absolute;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#love-pro #result .res p{
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+#about #about-des{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+#about-des h1{
+    text-align: center;
+    color: crimson;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: serif;
+    margin-top: 10px;
+}
+#about-des p{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#back-cover{
+    padding: 30px 0px;
+    margin-top: 40px;
+    border: 2px solid gray;
+    background-image: url(images/background3.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    margin-bottom: 60px;
+}
+#back-cover span{
+  font-size: 20px;
+  font-weight: 300;
+  font-family: serif;
+  letter-spacing: 3px;
+  color: darkgrey;
+}
+#dest{
+   margin-bottom: 80px;
+}
+#dest-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dest-img img{
+    
+    cursor: pointer;
+}
+#dest-img img:hover{
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    box-shadow: 0 5x 8px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+#dest-img1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dest-img1 img{
+    cursor: pointer;
+}
+#dest-img1 img:hover{
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    box-shadow: 0 5x 8px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+#dest h1{
+    font-size: 28px;
+    font-family: serif;
+    text-align: center;
+    justify-content: center;
+    color: #088179;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+}
+#final{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+#final #logo{
+   margin-left: 40px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+#final #logo span{
+    margin-left: 40px;
+}
+#final #logo a{
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 10px;
+}
+#final #logo a:hover{
+    
+    color: blue;
+}
+#final #tag-name{
+    padding-bottom: 10px;
+}
+#final #tag-name h1{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+}
+#final #tag-name p{
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 20px;
+}
+#feedback{
+    margin-right: 60px;
+}
+#feedback h1{
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 40px;
+}
+#feedback #message{
+    border-radius: 6px;
+}
+#feedback button{
+    border: none;
+    text-align: center;
+    margin-left: 150px;
+    cursor: pointer;
+}
+#feedback button:hover{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 150px;
+    cursor: pointer;
+    padding: 6px;
+}
+#last{
+    padding: 25px;
+    background-color: grey;
+}
+#last h3{
+    font-family: serif;
+    letter-spacing: 3px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+@media(max-width:799px){
+    #love-pro {
+     
+        padding: 0 80px;
+        height: 90vh;
+        background-position: top 30% left 30%;
+        background-color: #000;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <script src="{% static 'index.js' %}"></script>
+</head>
+<body id="main">
+
+    <section id="navbar">
+            <div id="nav-img">
+                <a href="#"><img src="{% static 'images/mani.png' %}" alt=""></a>
+            </div>
+ 
+        <div>
+        <ul id="nav-des">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#dest">Visit</a></li>
+            <li><a href="#support">Support</a></li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="love-pro">
+    <div id="love-content">
+        <form method="post" name="form">
+            {% csrf_token %}
+            <p>Your name</p>
+            <input type="text" name="num1" placeholder="Enter your name" class="name" id="num"><br>
+            <div id="demo" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <div class="radio">
+            <input type="radio" name="gender" value="Male" checked>Male
+            <input type="radio" name="gender" value="Female">Female<br>
+        </div>
+            <div>
+            <p>Partner's name</p>
+            <input type="text" name="num2" placeholder="Enter partner name" class="name" id="num1"><br>
+            <div id="demo1" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <div class="radio">
+            <input type="radio" name="gender1" value="Male1">Male
+            <input type="radio" name="gender1" value="Female1" checked>Female<br>
+          
+            <div id="result">
+            {% if result >= 90 %}
+                 <p>{{result}}%</p>
+                 <p class="res">Made for each other</p>
+            {% elif result >= 80 %}
+                <p>{{result}}%</p>
+                <p class="res">Perfect Relationship</p>
+            {% elif result <= 89 %}
+                <p>{{result}}%</p>
+                <p class="res">Perfect Relationship</p>
+            {% elif result >= 70 %}
+                <p>{{result}}%</p>
+                <p class="res">You just need a cute long lasting relationship</p>
+            {% elif result <= 74 %}
+                <p>{{result}}%</p>
+                <p class="res">You just need a cute long lasting relationship</p>
+            {% elif result >= 75 %}
+                <p>{{result}}</p>
+                <p class="res">Beautiful Relationship</p>
+            {% elif result <= 79 %}
+                <p>{{result}}%</p>
+                <p class="res">Beautiful relationship</p>
+            {% elif result >= 60 %}
+                <p>{{result}}%</p>
+                <p class="res">Cute and care</p>
+            {% elif result <= 64 %}
+                <p>{{result}}%</p>
+                <p class="res">Cute and care</p>
+            {% elif result >= 65 %}
+                <p>{{result}}%</p>
+                <p class="res">Sweet and beautiful relationship</p>
+            {% elif result <= 69 %}
+                <p>{{result}}%</p>
+                <p class="res">Sweet and beautiful relationship</p>
+            {% elif result <= 59 %}
+                <p>{{result}}%</p>
+                <p class="res">So blessed and wonderful relationship</p>
+            {% elif result >= 50 %}
+                <p>{{result}}%</p>
+                <p class="res">So blessed and wonderful relationship</p>
+            {% elif result <= 49 %}
+                <p>{{result}}%</p>
+                <p class="res">Try and Stay happy</p>
+            {% elif result >= 40 %}
+                <p>{{result}}%</p>
+                <p class="res">Try and stay happy</p>
+           
+            {% endif %}
+
+
+                <div id="btn">
+                <button value="calculate" name="calculate" onclick="return fn1()">calculate
+                </button>
+        </div>
+            </div>  
+
+        </div>
+
+
+         
+
+       
+        
+        </div>
+        </div>
+        
+        </form>
+    
+    </div>
+</section>
+
+    <section id="about">
+        <div id="about-des">
+        <h1>Love compatibility calculator</h1>
+        <p>Friendship calculator is used to find out the compatibility between 2 persons based on their alphabets.First name and last name conver to numeric using ascii code then first number and last number will be added using loop.</p>   
+        <p>Our love calculator by between two names a love compatibility test based on the name and birth details of you and your partner. it displays a love percentage that shows how well you match with your partner and what are the chances of success of your relationship.So, are you ready to make the most of the real love calculator </p>
+        <h1>How does love percentage calculator work</h1>
+        <p>The love calculator follows certain algorithms to calculate love percentage.This true love compatability test follows an acient system of numerology that uses your names .it also includes planetery influences which are analyzed socely on the basis of your date of birth.
+            since,the date of birth and name are the main aspects of finding love percentage,the love calculator is reffered to as a true love name match or true love name match or true love calculator by date of birth
+        </p>
+        <h1>How to use the Love calculator</h1>
+        <p>To use this love compatibility calculator, all you need to do is follows these simple three steps:</p>
+        <ol>
+            <li>Enter the name of the boy</li>
+            <li>Enter the name of the girl</li>
+            <li>Click on love calculator</li>
+        </ol>
+        <p>That's all you will immediately be taken to the result screen which will hold the answer to your questions,in the form of your compatibility percentage.</p><br>
+
+        <p>If your compatability meter states that your love percentage is above 85%,then that is the kind of love you need to  hang on to. There are certain people that we would miss even if we never met them and if your soulmate,your twin flame,and you need to hold on to that relationship,because their soul complete yours.</p>
+    </div>
+
+    <div id="back-cover">
+          <marquee behavior="" direction="right"><span>Love calculator</span></marquee>
+    </div>
+    </section>
+
+    <section id="dest">
+        <h1>Beautiful places in the world</h1>
+    
+        <div id="dest-img" style="margin-bottom: 60px;">
+    <a href="#" class="img1"><img src="{% static 'images/destination.jpg' %}" alt="" width="220px"></a>
+    <a href="#"><img src="{% static 'images/newyork.jpg' %}" alt=""  width="220px"></a>
+    <a href="#"><img src="{% static 'images/paris.jpg' %}" alt=""  width="220px"></a>
+    <a href="#"><img src="{% static 'images/san.jpg' %}" alt=""  width="220px"></a>
+    <a href="#"><img src="{% static 'images/destination1.jpg' %}" alt=""  width="220px" style="margin-right: 4px;"></a>
+</div>
+
+<div id="dest-img1">
+    <a href="#"><img src="{% static 'images/destination2.jpg' %}" alt=""  width="220px"></a>
+    <a href="#"><img src="{% static 'images/destination3.jpg' %}" alt=""  width="220px"></a>
+    <a href="#"><img src="{% static 'images/destination4.jpg' %}" alt=""  width="220px"></a>
+    <a href="#"><img src="{% static 'images/destination5.jpg' %}" alt=""  width="220px"></a>
+    <a href="#"><img src="{% static 'images/destination6.jpg' %}" alt=""  width="220px"></a>
+   
+</div>
+
+</section>
+
+    <section id="support">
+        <div id="final">
+        <div id="logo">
+            
+            <a href="https://www.instagram.com/manimightyboy/"><img src="{% static 'images/instagram.png' %}" alt="" width="30px"><span>Instagram</span></a>
+            <a href="#"><img src="{% static 'images/gmail.png' %}" alt=""  width="30px"><span>Gmail</span></a>
+            <a href="#"><img src="{% static 'images/facebook.png' %}" alt=""  width="30px"><span>Facebook</span></a>
+            <a href="#"><img src="{% static 'images/whatsapp.png' %}" alt=""  width="30px"><span>Whatsapp</span></a>
+        </div>
+        <div id="tag-name">
+                <h1>About</h1>
+                <p>Home</p>
+                <p>Love calculator</p>
+                <p>Visit beautiful places</p>
+                <p>Contact us</p>
+        </div>
+         <div id="feedback">
+              <h1>Feedback</h1>
+              <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
+              <div id="last1"></div><br>
+              <button onclick="return fn2()" id="lstbtn">submit</button>
+         </div>
+        </div>
+    </section>
+
+     <section id="last">
+           <h3>Love calculator</h3>
+     </section>
+    {% block content %}
+    {% endblock %}
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+
+
+</html>
