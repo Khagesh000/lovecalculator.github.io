@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/issues</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/pulls</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/projects?query=is%3Aopen</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/security</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/commit/137b178030a37c60a63c32f30066f6f7877fd781</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/master/README.md</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/master/db.sqlite3</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/master/manage.py</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/master/requirements.txt</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/releases</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/compare</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/caches</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535038787</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535030199</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534707361</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534673178</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534517104</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/security/policy</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/security/advisories</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/commit/72fa496ec8ebd3bcaca755876dd40012387831d8</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/137b178030a37c60a63c32f30066f6f7877fd781/README.md</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/find/master</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/master/README.md?plain=1</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/137b178030a37c60a63c32f30066f6f7877fd781/db.sqlite3</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/login?return_to=https%3A%2F%2Fgithub.com%2FKhagesh000%2Flovecalculator%2Fdelete%2Fmaster%2Fdb.sqlite3</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/137b178030a37c60a63c32f30066f6f7877fd781/manage.py</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels?sort=name-asc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels?sort=name-desc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels?sort=count-desc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels?sort=count-asc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/bug</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/documentation</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/duplicate</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/enhancement</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/good%20first%20issue</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/help%20wanted</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/invalid</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/question</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/labels/wontfix</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/caches?query=sort%3Aaccessed-desc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/caches?query=sort%3Aaccessed-asc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/caches?query=sort%3Acreated-desc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/caches?query=sort%3Acreated-asc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/caches?query=sort%3Asize-desc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/caches?query=sort%3Asize-asc</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535038787/jobs/7989981759</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535038787/jobs/7989996821</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535038787/jobs/7989997036</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535038787/usage</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535030199/jobs/7989961847</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535030199/jobs/7989973608</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535030199/jobs/7989973300</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4535030199/usage</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534707361/jobs/7989236821</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534707361/jobs/7989249613</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534707361/jobs/7989249839</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534707361/usage</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/commit/7b555d8606f85cb89dfb69c1e033523a51aa40bf</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534673178/jobs/7989160790</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534673178/jobs/7989174808</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534673178/jobs/7989175122</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534673178/usage</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/commit/6e73c97e3163af448b5d4f6ca79745cf0ff47552</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534517104/jobs/7988801358</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534517104/jobs/7988817605</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534517104/jobs/7988817841</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/actions/runs/4534517104/usage</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/commit/3cbe4b70ff54b4ac1541af4472909a5bd3930929</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/find/137b178030a37c60a63c32f30066f6f7877fd781</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/blob/137b178030a37c60a63c32f30066f6f7877fd781/README.md?plain=1</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Khagesh000/lovecalculator/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2023-03-28T12:29:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
