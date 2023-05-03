@@ -49,5 +49,8 @@ def home(request):
 
     else:
         return render(request, "index.html")
+    
+def calculator(request):
+    return render(request,'calculator.html')
 
 

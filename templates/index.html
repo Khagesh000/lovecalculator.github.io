@@ -6,23 +6,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'index.css' %}">
     <script src="{% static 'index.js' %}"></script>
+    <link     rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<body id="main">
+<body id="main" style="overflow-x: hidden; background-color:lightblue">
 
-    <section id="navbar">
-            <div id="nav-img">
-                <a href="#"><img src="{% static 'images/mani.png' %}" alt=""></a>
-            </div>
- 
-        <div>
-        <ul id="nav-des">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#dest">Visit</a></li>
-            <li><a href="#support">Support</a></li>
-        </ul>
+
+    <section id="head">
+        <div class="navbar navbar-light bg-light navbar-expand-lg">
+         <a href="#" class="navbar-brand"><img src="{% static 'images/mani.png' %}" alt="" class="image" width="100px"></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span></button>
+         <div class="navbar-collapse collapse" id="menu">
+           <ul class="navbar-nav ms-auto" style="text-align: right;">
+             <li class="nav-item"><a class="nav-link" aria-current="page" href="#contactus">Home</a></li>
+             <li class="nav-item"><a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">About</a></li>
+             <li class="nav-item"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Calculator</a></li>
+             <li class="nav-item"><a class="nav-link" href="#support" tabindex="-1" aria-disabled="true">Support</a></li>
+           </ul>
+         </div>
         </div>
-    </section>
+       </section>
+
 
     <section id="love-pro">
     <div id="love-content">
@@ -94,8 +101,7 @@
 
 
                 <div id="btn">
-                <button value="calculate" name="calculate" onclick="return fn1()">calculate
-                </button>
+                <button value="calculate" name="calculate" onclick="return fn1()">calculate</button>
         </div>
             </div>  
 
@@ -112,6 +118,44 @@
         </form>
     
     </div>
+</section>
+
+<section class="container">
+            <h3 style="margin-top: 40px; color:crimson; text-align:center; margin-bottom:20px">Love compatibility calculator</h3>
+           <table class="table table-success table-striped table-hover">
+            <thead>
+              <th scope="col"><S class="NO"></S></th>
+              <th scope="col">Name</th>
+              <th scope="col">Results</th>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <th scope="row">Romeo-Juliet</th>
+                <th scope="row">74</th>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <th scope="row">Dog-Duck</th>
+                <th scope="row">63</th>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <th scope="row">Male-Female</th>
+                <th scope="row">76</th>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <th scope="row">Devadas-Parvati</th>
+                <th scope="row">98</th>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <th scope="row">Duck-Dog</th>
+                <th scope="row">63</th>
+              </tr>
+            </tbody>
+           </table>
 </section>
 
     <section id="about">
@@ -140,36 +184,17 @@
     </div>
     </section>
 
-    <section id="dest">
-        <h1>Beautiful places in the world</h1>
-    
-        <div id="dest-img" style="margin-bottom: 60px;">
-    <a href="#" class="img1"><img src="{% static 'images/destination.jpg' %}" alt="" width="220px"></a>
-    <a href="#"><img src="{% static 'images/newyork.jpg' %}" alt=""  width="220px"></a>
-    <a href="#"><img src="{% static 'images/paris.jpg' %}" alt=""  width="220px"></a>
-    <a href="#"><img src="{% static 'images/san.jpg' %}" alt=""  width="220px"></a>
-    <a href="#"><img src="{% static 'images/destination1.jpg' %}" alt=""  width="220px" style="margin-right: 4px;"></a>
-</div>
 
-<div id="dest-img1">
-    <a href="#"><img src="{% static 'images/destination2.jpg' %}" alt=""  width="220px"></a>
-    <a href="#"><img src="{% static 'images/destination3.jpg' %}" alt=""  width="220px"></a>
-    <a href="#"><img src="{% static 'images/destination4.jpg' %}" alt=""  width="220px"></a>
-    <a href="#"><img src="{% static 'images/destination5.jpg' %}" alt=""  width="220px"></a>
-    <a href="#"><img src="{% static 'images/destination6.jpg' %}" alt=""  width="220px"></a>
-   
-</div>
-
-</section>
 
     <section id="support">
         <div id="final">
         <div id="logo">
-            
+             <h6>Contact us</h6>
             <a href="https://www.instagram.com/manimightyboy/"><img src="{% static 'images/instagram.png' %}" alt="" width="30px"><span>Instagram</span></a>
-            <a href="#"><img src="{% static 'images/gmail.png' %}" alt=""  width="30px"><span>Gmail</span></a>
+            <a href="https://github.com/khagesh000" style="margin-right: 20px;"><img src="{% static 'images/github.png' %}" alt=""><span>Github</span></a>
+            <a href="mailto:yeraganakhagesh@gmail.com"><img src="{% static 'images/gmail.png' %}" alt=""  width="30px"><span>Gmail</span></a>
             <a href="#"><img src="{% static 'images/facebook.png' %}" alt=""  width="30px"><span>Facebook</span></a>
-            <a href="#"><img src="{% static 'images/whatsapp.png' %}" alt=""  width="30px"><span>Whatsapp</span></a>
+            
         </div>
         <div id="tag-name">
                 <h1>About</h1>
