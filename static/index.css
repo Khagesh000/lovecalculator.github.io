@@ -328,19 +328,38 @@
     color: black;
 }
 
-
-
-
-@media(max-width:799px){
-    #love-pro {
-     
-        padding: 0 80px;
-        height: 90vh;
-        background-position: top 30% left 30%;
-        background-color: #000;
-        
+@media screen and (min-width:768px) {
+    body{
+        background-color: #060606;
     }
+  
 }
+
+@media screen and (max-width:768px) {
+  body{
+    background-color: #060606;
+  }
+
+}
+@media  screen and (max-width: 480px) {
+  body{
+    background-color: #000;
+  }
+}
+
+@media screen and (min-width:992px) {
+  body{
+    background-color: #000;
+  }
+}
+
+@media  screen and (min-width: 992px) {
+body{
+    background-color: #060606;
+}
+
+}
+
 
 
 

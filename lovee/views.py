@@ -45,7 +45,7 @@ def home(request):
         sum = last+k+j+late+33
         result = int(sum)
 
-        return render(request, 'index.html', {'result':result})
+        return render(request, 'index.html', {'result':result, 'data':data, 'data1':data1})
 
     else:
         return render(request, "index.html")
